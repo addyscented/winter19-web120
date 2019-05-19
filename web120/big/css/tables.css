@@ -1,0 +1,89 @@
+table {
+        border:5% ;
+        width:100%;
+        /* Whole Table Style */
+        background-color:#fff;
+        margin-left: 20%;
+        
+    }
+      
+    tr {
+        vertical-align: top;
+        margin: 10px;
+        padding: 2%;
+    }
+      
+    td,th {
+        border:.5px solid white;
+        padding:.3em;
+   
+        margin: 10%;
+     
+      
+    }
+    
+/* Start Client Table Style */
+    table.client {
+        margin: 5% auto; /* T R B L */
+        margin-left: 20%;
+    }
+    
+    table.client th {
+        text-align:left;
+        width:50%;
+    }
+
+table.client tr:nth-child(even) {
+  background-color: #FFF0ED;
+}
+
+table.client tr:nth-child(odd) {
+    background-color: #FFF6FC
+}
+
+/* Start Audience Table Style */
+
+    table.audience {
+        margin: 5px auto; /* T R B L */
+        text-align: center;
+        margin-bottom: 2%;
+        margin-left: 20%;
+        
+        
+    }
+      
+    table.audience th {
+        width:5%;
+        text-align: center;
+    
+    
+    }
+table.audience td {
+    padding-right: 1%;
+    width: 20%;
+    vertical-align: middle;
+}
+
+table.audience tr:nth-child(even) {
+    background-color: #FFF0ED;
+}
+table.audience tr:nth-child(odd) {
+    background-color: #FFF6FC;
+}
+table.audience li {
+  text-align: left;
+  padding: 1%; /* padding between bulleted items */
+}
+
+/*Start of Element table only styling */
+table.elements thead tr{
+    background-color: #d1e1ff;
+    
+}
+
+table.elements tr:nth-child(even) {
+    background-color: #FFF0ED;
+}
+table.elements tr:nth-child(odd) {
+    background-color: #FFF6FC;
+}
