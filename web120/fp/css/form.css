@@ -1,0 +1,84 @@
+<style type="text/css">
+
+.form-style-6{
+	font: 120% helvetica, arial, sans-serif;
+	max-width: 400px;
+	margin: 1% auto;
+	padding: 1%;
+	background: #F7F7F7;
+    overflow-x: hidden;
+}
+.form-style-6 h1{
+	background: #6B0A91;
+    font: 150% helvetica, sans-serif, bold;
+	padding: 1%;
+	font-size: 180%;
+	font-weight: 500;
+	text-align: center;
+	color: #fff;
+	margin: 2% 30% 1% 20%;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 50%;
+	background: #fff;
+	margin-bottom: 1%;
+	border: 1px solid #ccc;
+	padding: 2%;
+	color: #555;
+    margin-left: 20%;
+	font: 95% Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #9F10E8;
+	padding: 1%;
+	border: 1px solid #9F10E8;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 50%;
+	padding: 1%;
+	background: #6B0A91;
+	border-bottom: 2px solid #6B0A91;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+    margin: 1% 50% 1% 20%;
+	color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: #6B0A91;
+}
+</style>

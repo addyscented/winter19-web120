@@ -1,0 +1,101 @@
+
+
+html {
+    font-family: Arial Black, Gadget, sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+a {
+    text-decoration: none;
+    color:#6B0A91;
+}
+a:visited {
+    color:#6B0A91;
+}
+a:hover{
+    color:#9F10E8;
+}
+
+/*.newsflexcontainer {
+    display:flex;
+    justify-content: center;
+    width: 5%;
+    align-items: center;
+    flex-wrap:wrap;
+    flex-direction: column;
+ */   
+    
+}
+footer{
+    font-size: .5em;
+    position:absolute;
+    bottom:1%;
+    right: 50%;
+}
+
+.mix {
+    position:absolute;
+    top: 30%;
+    left: 35%;
+}
+#gorpmainlogo {
+    
+    font-size: 2em;
+    position:absolute;
+    top: 50%;
+    left: 40%;
+    z-index: -1;
+    color:#6B0A91;
+}
+.shopping {
+    position:absolute;
+    top:20%;
+    left: 40%;
+    
+}
+.shoplink{
+    display: flex;
+    flex-direction: column;
+}
+
+
+marquee .about-container{
+  top: 30%;
+    
+}
+.scroll {
+
+    color: #F35991;
+    text-shadow: 2px 2px 8px #B7B6C2;
+  
+}
+/*.newstext {
+    display:flex;
+    justify-content: center;
+    width: 5%;
+    align-items: center;
+    flex-wrap:wrap;
+    flex-direction: column;
+    
+    
+}
+*/
+
+.blogimage {
+    margin-left: 20%;
+    margin-right: 2%;
+}
+
+.newstext {
+    float:right;
+    margin-left: 2%;
+    text-align: left;
+    marging:0;
+    padding:0;
+}
+
+
+/* START RESPONSIVE STYLES */
+
+    
+   
